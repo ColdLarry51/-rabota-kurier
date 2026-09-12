@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Подработка курьером — актуальные условия</title>
+  <meta name="description" content="Подработка курьером через партнёра сервиса Яндекс Еда / Яндекс Лавка. Актуальные условия и оформление.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f5f6f8;
+      color: #17181a;
+      line-height: 1.45;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 18px; }
+    .hero {
+      background: #fff;
+      border-radius: 24px;
+      padding: 34px 26px 28px;
+      box-shadow: 0 10px 35px rgba(0,0,0,.07);
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: #eef0f3;
+      border-radius: 999px;
+      padding: 7px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+    h1 { font-size: clamp(30px, 7vw, 48px); line-height: 1.05; margin: 0 0 14px; }
+    .lead { font-size: 18px; color: #555b63; margin: 0 auto 22px; max-width: 610px; }
+    .cta {
+      display: inline-block;
+      width: 100%;
+      max-width: 430px;
+      padding: 16px 22px;
+      border-radius: 14px;
+      background: #17181a;
+      color: #fff;
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .note { font-size: 12px; color: #777d85; margin-top: 12px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 18px;
+      padding: 20px;
+    }
+    .card h2 { font-size: 18px; margin: 0 0 9px; }
+    .card p { margin: 0; color: #60656d; }
+    .section {
+      background: #fff;
+      border-radius: 20px;
+      padding: 24px;
+      margin-top: 14px;
+    }
+    .section h2 { margin: 0 0 16px; font-size: 24px; }
+
+    .choice {
+      background: #fff;
+      border-radius: 22px;
+      padding: 24px;
+      margin-top: 14px;
+      box-shadow: 0 8px 28px rgba(0,0,0,.05);
+    }
+    .choice-head { text-align: center; margin-bottom: 18px; }
+    .choice-head h2 { margin: 0 0 8px; font-size: 26px; }
+    .choice-head p { margin: 0; color: #60656d; }
+    .choice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .choice-card {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 13px;
+      padding: 18px;
+      border: 1px solid #e7e8eb;
+      border-radius: 17px;
+      color: inherit;
+      text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .choice-card:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,0,0,.08); }
+    .choice-icon {
+      width: 48px; height: 48px; border-radius: 14px;
+      background: #f1f2f4; display: grid; place-items: center; font-size: 25px;
+    }
+    .choice-card h3 { margin: 0 0 4px; font-size: 17px; }
+    .choice-card p { margin: 0; color: #686d75; font-size: 13px; }
+    .choice-arrow { font-size: 24px; color: #777d85; }
+    @media (max-width: 560px) {
+      .choice-grid { grid-template-columns: 1fr; }
+    }
+
+    .auto-cta { text-align: center; }
+    .auto-cta .badge { background: #eef0f3; }
+    .auto-cta p { color: #60656d; max-width: 600px; margin: 0 auto 14px; }
+    .auto-cta .cta { margin-top: 6px; }
+    ul { margin: 0; padding-left: 21px; }
+    li { margin: 9px 0; }
+    .steps { counter-reset: step; list-style: none; padding: 0; }
+    .steps li {
+      counter-increment: step;
+      position: relative;
+      padding-left: 42px;
+      margin: 15px 0;
+    }
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0; top: -2px;
+      width: 30px; height: 30px;
+      border-radius: 50%;
+      background: #eef0f3;
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+    }
+    .footer {
+      text-align: center;
+      color: #858a91;
+      font-size: 12px;
+      padding: 20px 10px 8px;
+    }
+    @media (max-width: 560px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 28px 20px 24px; }
+      .section { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="badge">Подработка / работа курьером</div>
+      <h1>Есть автомобиль?<br>Можно работать курьером</h1>
+      <p class="lead">
+        Актуальные условия, города и подробности оформления —
+        в нашем Telegram-канале.
+      </p>
+      <a class="cta" href="https://t.me/RabotaGo2" target="_blank" rel="noopener">
+        Перейти в Telegram
+      </a>
+      <div class="note">
+        Набор ведётся через партнёра сервиса Яндекс Еда / Яндекс Лавка.
+      </div>
+    </section>
+
+
+    <section class="choice">
+      <div class="choice-head">
+        <div class="badge">Выберите формат</div>
+        <h2>Как планируете выполнять доставки?</h2>
+        <p>Перейдите к подходящему разделу в Telegram и посмотрите актуальные условия.</p>
+      </div>
+      <div class="choice-grid">
+        <a class="choice-card" href="https://t.me/RabotaGo2" target="_blank" rel="noopener">
+          <div class="choice-icon">🚗</div>
+          <div>
+            <h3>Я на автомобиле</h3>
+            <p>Условия для автокурьеров и информация об акции ×1,5.</p>
+          </div>
+          <span class="choice-arrow">→</span>
+        </a>
+        <a class="choice-card" href="https://t.me/RabotaGo2" target="_blank" rel="noopener">
+          <div class="choice-icon">🛵</div>
+          <div>
+            <h3>Другой формат</h3>
+            <p>Пеший или велокурьер — смотрите доступные варианты.</p>
+          </div>
+          <span class="choice-arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>🚗 Автокурьеры</h2>
+        <p>Можно совмещать с основной занятостью или работать по удобному расписанию.</p>
+      </div>
+      <div class="card">
+        <h2>⏰ Удобный график</h2>
+        <p>Доступны разные варианты графика в зависимости от города и условий.</p>
+      </div>
+      <div class="card">
+        <h2>💳 Выплаты</h2>
+        <p>Порядок выплат зависит от гражданства и способа оформления.</p>
+      </div>
+      <div class="card">
+        <h2>🛵 Другие варианты</h2>
+        <p>Также приветствуются велокурьеры, если такой формат доступен в вашем городе.</p>
+      </div>
+    </section>
+
+
+    <section class="section auto-cta">
+      <div class="badge">🚗 Для автокурьеров</div>
+      <h2>Есть автомобиль?</h2>
+      <p>
+        Отдельно рассказываем об условиях для автокурьеров и актуальных
+        возможностях в доступных городах.
+      </p>
+      <p>
+        Сейчас для партнёров действует специальное условие с коэффициентом
+        <strong>×1,5</strong> при выполнении требований акции.
+      </p>
+      <a class="cta" href="https://t.me/RabotaGo2" target="_blank" rel="noopener">
+        Узнать условия для автокурьеров
+      </a>
+      <div class="note">Набор ведётся через партнёра сервиса.</div>
+    </section>
+
+    <section class="section">
+      <h2>Кому подходит</h2>
+      <ul>
+        <li>от 18 лет;</li>
+        <li>удостоверение личности;</li>
+        <li>Android 8.0+ или iPhone с iOS 16.5+;</li>
+        <li>для автокурьеров — автомобиль;</li>
+        <li>возрастной предел для автокурьеров — до 65 лет;</li>
+        <li>для пеших/велокурьеров — до 55 лет.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Как начать</h2>
+      <ol class="steps">
+        <li>Зайдите в наш Telegram-канал.</li>
+        <li>Выберите актуальное предложение для своего города.</li>
+        <li>Ознакомьтесь с условиями и требованиями.</li>
+        <li>Перейдите к оформлению по указанной ссылке.</li>
+        <li>После регистрации следуйте инструкциям по активации и началу доставок.</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Что важно знать</h2>
+      <p>
+        Условия, доступные города, требования и размер выплат могут зависеть
+        от конкретного предложения. Перед оформлением обязательно ознакомьтесь
+        с актуальными условиями.
+      </p>
+      <p>
+        Это не трудоустройство непосредственно в сервис Яндекс Еда / Яндекс Лавка:
+        набор ведётся через партнёра сервиса.
+      </p>
+      <a class="cta" href="https://t.me/RabotaGo2" target="_blank" rel="noopener">
+        Смотреть актуальные условия
+      </a>
+    </section>
+
+    <div class="footer">
+      Информация на странице носит ознакомительный характер. Актуальные условия
+      смотрите в Telegram-канале перед оформлением.
+    </div>
+  </main>
+</body>
+</html>
